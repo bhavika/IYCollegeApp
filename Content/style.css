@@ -1,0 +1,95 @@
+﻿body {
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top : 10px;
+}
+
+ .auto-style1 {
+            width: 421px;
+        }
+ .auto-style2 {
+            width: 419px;
+
+ }
+
+
+header {
+    margin-top: 0px;
+    text-align: center;
+}
+
+#collegename {
+    color: #737CA1;
+    text-align: center;
+}
+
+.form-control {
+    width: auto;
+}
+
+#offline {
+    text-align: center;
+}
+#purpose {
+    text-align:center;
+}
+
+
+
+#clickone {
+    text-align:center;
+}
+
+
+#buttons {
+   
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+
+}
+
+#edit {
+        margin: 0 auto;
+
+}
+
+#helptext {
+    text-align: center;
+}
+
+#editButton {
+       position: relative;
+       margin: 0 auto;
+
+}
+
+
+
+#newapp {
+    position: relative;
+    margin: 0 auto;
+    height: 150px;
+    width: 400px;
+    margin-left: 250px;
+    margin-top: 100px;
+    
+}
+
+#editapp {
+    position: relative;
+    margin: 0 auto;
+    height: 150px;
+    width: 400px;
+    margin-top: 100px;
+}
+
+
+
+#instructions {
+    margin-left: auto;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}

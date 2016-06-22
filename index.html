@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/modernizr-custom.js"></script>
+    <script src="Scripts/polyfiller.js"></script>
+  
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/style.css" rel="stylesheet" />
+    <script>
+        webshims.setOptions('waitReady', false);
+        webshims.setOptions('forms-ext', { types: 'date' });
+        webshims.polyfill('forms forms-ext');
+    </script>
+    <title>I.Y College of Arts, Science and Commerce</title>
+</head>
+<body>
+
+     <div id="header">
+        <span><h2 id="collegename">I.Y. College of Arts, Science and Commerce</h2></span>
+        <span><h3 id="purpose">Admissions for First Year Junior College (FYJC) 2015-16</h3></span>
+        <span><h3 id="offline">Offline Process</h3></span>
+     </div>
+
+    <button type="button" class="btn btn-info" onclick="window.location='Primary.aspx'" id="newapp" aria-label="">Submit a new application
+        <span class="glyphicon glyphicon-chevron-right"> </span>
+    </button> 
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <button class="btn btn-info" id="editapp" onclick="window.location='Edit.aspx'"> Edit an existing application
+         <span class="glyphicon glyphicon-chevron-right"> </span>
+    </button>
+
+    <br /> 
+    <br /> 
+
+    <div id="instructions">
+           <p> 
+            <br />
+
+            Please submit the following ORIGINAL documents with your application form: <br />
+
+                1. SSC Marksheet - Original <br />
+                2. School Leaving Certificate - Original. <br />
+
+        
+            Application form will not be accepted without these ORIGINAL documents.
+        </p>
+       
+    </div>
+
+    <div class="footer navbar-fixed-bottom">
+          Site created and maintained by Bhavika
+    </div>
+
+</body>
+</html>
